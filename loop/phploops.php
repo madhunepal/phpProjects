@@ -20,5 +20,18 @@ do{
     echo " the price is : $pen <br>";
     $pen++;
 } while ($pen <=5);
+ 
+?>
+
+<?php 
+// for loop
+/* syntax
+for init counter; test counter; increment counter) {
+    code will be executed for itiration;
+}
+*/
+for ($a = 0; $a <= 5; $a++){
+    echo "the number is : $a <br>";
+}
 
 ?>
