@@ -15,5 +15,10 @@ while($pen <= 10){
     echo "the price is : $pen <br>";
     $pen++;
 }
+// do .. while 
+do{
+    echo " the price is : $pen <br>";
+    $pen++;
+} while ($pen <=5);
 
 ?>
