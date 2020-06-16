@@ -35,3 +35,18 @@ for ($a = 0; $a <= 5; $a++){
 }
 
 ?>
+<?php
+// foreach loop 
+/*
+foreach ($array as $value) {
+  code to be executed;
+}
+*/
+$colors = array("green", "red", "blue", "yellow", "pink");
+
+foreach($colors as $value){
+
+    echo "$value <br>";
+}
+
+?>
